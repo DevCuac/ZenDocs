@@ -1,0 +1,10 @@
+{
+  "title": "Documentación",
+  "pages": [
+    "introduccion",
+    "plugins",
+    "config",
+    "setups",
+    "recursos"
+  ]
+}

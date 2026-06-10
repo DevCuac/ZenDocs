@@ -1,0 +1,30 @@
+{
+  "title": "ZenRewards",
+  "pages": [
+    "introduccion",
+    "instalacion",
+    "modulos",
+    "configuracion",
+    "recompensas",
+    "menu",
+    "rachas",
+    "playtime",
+    "calendarios",
+    "referidos",
+    "daily-gifts",
+    "pendientes",
+    "webhooks",
+    "mensajes",
+    "comandos",
+    "permisos",
+    "placeholders",
+    "acciones",
+    "base-de-datos",
+    "menus-tiempo-real",
+    "efectos-visuales",
+    "compatibilidad",
+    "formato-tiempo",
+    "faq",
+    "estructura-archivos"
+  ]
+}

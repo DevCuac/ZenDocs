@@ -1,0 +1,70 @@
+---
+title: "Introducción a ZenRewards"
+description: "Resumen del plugin, módulos principales y puntos de inicio para configurar ZenRewards."
+---
+
+import { Card, Cards } from 'fumadocs-ui/components/card';
+import { Steps, Step } from 'fumadocs-ui/components/steps';
+import { Callout } from 'fumadocs-ui/components/callout';
+
+**ZenRewards** es un plugin de recompensas todo‑en‑uno para servidores de Minecraft con múltiples sistemas configurables y menús GUI interactivos.
+
+## 📌 Ficha técnica
+
+| Dato | Valor |
+| :-- | :-- |
+| **Versión** | 2.1 |
+| **Autor** | cuac_xd |
+| **API de Minecraft** | 1.8+ (compatible con versiones modernas y legacy) |
+| **Dependencias opcionales** | PlaceholderAPI |
+
+---
+
+## 🧩 Módulos incluidos
+
+- **Recompensas configurables** — Diarias, semanales, mensuales, únicas, por rango, etc.
+- **Rachas de Conexión** — Recompensas progresivas por conectarse días seguidos.
+- **Tiempo de Juego** — Hitos de recompensas según el tiempo acumulado.
+- **Calendarios Temáticos** — Tipo calendario de adviento (Navidad, Halloween, etc.).
+- **Sistema de Referidos** — Invitaciones con recompensas para ambos jugadores + hitos.
+- **Daily Gifts** — Regalos secuenciales con cooldown por progreso.
+- **Recompensas Pendientes** — Recompensas offline reclamables al entrar.
+- **Integración con Discord** — Webhooks configurables para notificar logros.
+- **Menús en tiempo real** — Temporizadores y estados se actualizan sin reabrir.
+
+---
+
+## 🚀 Primeros pasos
+
+<Cards>
+  <Card title="Instalación" href="instalacion" description="Instala el plugin y genera sus archivos." />
+  <Card title="Configuración" href="configuracion" description="Ajusta módulos, sonidos y base de datos." />
+  <Card title="Recompensas" href="recompensas" description="Define tus recompensas en rewards.yml." />
+  <Card title="Menú" href="menu" description="Personaliza el menú principal y sus ítems." />
+</Cards>
+
+---
+
+## ⚡ Guía rápida
+
+<Steps>
+  <Step title="Descargar e instalar">
+    Descarga `ZenRewards.jar`, colócalo en `plugins/` e inicia el servidor.
+  </Step>
+  <Step title="Configurar">
+    Edita los archivos en `plugins/ZenRewards/` y ajusta módulos, recompensas y menús.
+  </Step>
+  <Step title="Aplicar cambios">
+    Ejecuta `/zr reload` para recargar la configuración sin reiniciar.
+  </Step>
+</Steps>
+
+<Callout type="info" title="PlaceholderAPI (opcional)">
+Si tienes **PlaceholderAPI** instalado, se habilitan los placeholders `%zenrewards_...%` automáticamente.
+</Callout>
+
+---
+
+## 📁 ¿Dónde está cada cosa?
+
+Consulta la página de [Estructura de archivos](estructura-archivos) para ver la carpeta completa y cada archivo generado.

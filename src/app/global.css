@@ -1,6 +1,24 @@
 @import 'tailwindcss';
-@import 'fumadocs-ui/css/neutral.css';
+@import 'fumadocs-ui/css/solar.css';
 @import 'fumadocs-ui/css/preset.css';
+
+@theme {
+  /* High-end Neon Cyan/Celeste Primary Accent */
+  --color-fd-primary: hsl(199, 89%, 48%);
+  --color-fd-primary-foreground: hsl(0, 0%, 100%);
+  
+  /* Sleek Dark-Sky Accent Hover States */
+  --color-fd-accent: hsl(199, 70%, 10%);
+  --color-fd-accent-foreground: hsl(199, 95%, 85%);
+  
+  --color-fd-background: hsl(200, 50%, 3.5%);
+  --color-fd-card: hsl(200, 45%, 6%);
+  
+  /* Tech Steel Borders & Secondary Colors */
+  --color-fd-border: hsl(200, 30%, 12%);
+  --color-fd-muted: hsl(200, 30%, 8%);
+  --color-fd-muted-foreground: hsl(200, 15%, 65%);
+}
 
 html {
   scrollbar-gutter: stable;

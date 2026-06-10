@@ -1,0 +1,21 @@
+{
+  "title": "ZenStations",
+  "pages": [
+    "introduccion",
+    "instalacion",
+    "comandos",
+    "permisos",
+    "placeholders",
+    "configuracion",
+    "estaciones",
+    "recetas",
+    "menus",
+    "sistema-forja",
+    "niveles",
+    "boosters",
+    "base-de-datos",
+    "integraciones",
+    "archivos-ejemplo",
+    "notas"
+  ]
+}

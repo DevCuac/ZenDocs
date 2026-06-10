@@ -1,8 +1,12 @@
 # deps
 /node_modules
+/skills
+/documentation
 
 # generated content
 .source
+.next
+backup
 
 # test & build
 /coverage
@@ -16,6 +20,8 @@
 *.pem
 /.pnp
 .pnp.js
+package-lock.json
+wiki-maintenance-skill.md
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
